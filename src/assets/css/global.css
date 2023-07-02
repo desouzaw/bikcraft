@@ -1,0 +1,39 @@
+@import "./header.css";
+
+:root {
+   --dark-1: #000;
+   --dark-2: #111;
+
+   --light-1: #fff;
+}
+
+* {
+   border: 0;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 10px;
+}
+
+ul {
+   list-style: none;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+}
+
+a {
+   text-decoration: none;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
